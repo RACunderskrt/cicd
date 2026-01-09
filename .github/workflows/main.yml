@@ -7,6 +7,7 @@ on:
   pull_request:
     paths:
       - 'BankApplication/**'
+  workflow_dispatch: 
 
 jobs:
   java-report:
